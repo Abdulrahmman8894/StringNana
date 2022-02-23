@@ -4,16 +4,14 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Halo {}
-
-Selamat datang {}
-
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
-
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @IDnyaKosong
+Halo 
+━━━━━━━━━━━━━━━━━━━━━━━━
+{}
+Kalo lu gak percaya bot ini, 
+1) gak usah baca pesan ini anj
+2) blokir bot atau delete chat ya tod
+━━━━━━━━━━━━━━━━━━━━━━━━
+By [Rzydx](https//t.me/Ngapain_Ngetag)
     """
 
     # Home Button
@@ -29,12 +27,12 @@ By @IDnyaKosong
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ 🔥", callback_data="generate")],
-        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ", url="https://t.me/IDnyaKosong")],
+        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ", url="https://t.me/Ngapain_Ngetag")],
         [
             InlineKeyboardButton("ᴄᴀʀᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ sᴀʏᴀ ❔", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("ɪɴғᴏ ʙᴏᴛ ʟᴀɪɴ", url="https://t.me/NastySupportt")],
+        [InlineKeyboardButton("ɪɴғᴏ ʙᴏᴛ ʟᴀɪɴ", url="https://t.me/Diskras")],
     ]
 
     # Help Message
@@ -53,13 +51,13 @@ By @IDnyaKosong
     ABOUT = """
 **About This Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @NastyStringbot
+Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @AnyaStringbot
 
-Group Support : [ɢᴀʙᴜɴɢ](https://t.me/NastySupportt)
+Group Support : [ɢᴀʙᴜɴɢ](https://t.me/Diskras)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @IDnyaKosong
+Developer : [Rzydx](https://t.me/Ngapain_Ngetag)
     """
